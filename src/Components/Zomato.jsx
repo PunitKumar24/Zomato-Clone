@@ -5,6 +5,7 @@ import Languages from "./ZomatoInnerComponents/Languages";
 export default function Zomato() {
   const [showforregion, setShowforregion] = useState(true);
   const [showforlanguage, setShowforlanguage] = useState(true);
+
   return (
     <div className=" max-w-[1440px] h-auto mx-auto my-[300px] p-4 bg-[rgb(251,251,251)] ">
       {!showforregion ? (

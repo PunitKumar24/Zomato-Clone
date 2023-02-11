@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./Components/Navbar";
 import HeadlineCard from "./Components/HeadlineCard";
 import Collections from "./Components/Collections";
@@ -19,6 +18,7 @@ function App() {
       <Explore />
       {/* <Practice /> */}
       <Zomato />
+      <div></div>
     </div>
   );
 }
